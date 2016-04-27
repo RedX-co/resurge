@@ -1,5 +1,38 @@
-/***** BASE CSS *****/
+/*RedX Added Code */
+#map {
+  	width: 100%;
+  	height: 300px;
+	margin: 0;
+	padding: 15px;
+}
 
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+
+
+h2 span.spacer {
+   padding:0 10px;
+}
+
+
+
+
+/***** BASE CSS *****/
+.row-centered {
+    text-align:center;
+}
 
 /* Site Name */
 
@@ -85,7 +118,7 @@ margin-right:7px;margin-bottom:7px;float:left;
 
 [class*="general foundicon-"]:before {font-family: "GeneralFoundicons";}
 
-        
+
 /* Menu Side */
 
 .menu_menu_simple ul {margin-top:0px;margin-bottom:0px;}
@@ -96,7 +129,7 @@ margin-right:7px;margin-bottom:7px;float:left;
 /* Header Area */
 
 #decorative1 {
-margin-top:-2px;padding-top:2px;    
+margin-top:-2px;padding-top:2px;
 }
 
 
@@ -135,11 +168,11 @@ img {max-width:100%;height:auto;width:auto;-moz-box-sizing:border-box;-webkit-bo
 
     }
 
-    
+
 /* Additional */
-    
+
 #divBoxed {position:relative}
- 
+
 .nav-links > a {margin-right:20px;}
 
 .btn-secondary, .btn-secondary:hover {text-shadow:none;}
@@ -185,7 +218,7 @@ img {max-width:100%;height:auto;width:auto;-moz-box-sizing:border-box;-webkit-bo
 /* Adjustments */
 
 .search.adjust {margin-bottom:15px}
-      
+
 .divPanel {}
 
 .divPanel.notop {padding-top:0px}
@@ -267,12 +300,22 @@ h1 {font-family: 'Source Sans Pro', sans-serif; font-weight: normal; font-style:
 
 .sidebox a{color: rgb(54, 150, 86);}
 
-#decorative1{position: relative; background-color: rgb(240, 240, 240); background-image: url(bob-van-aubel-ray-bans.jpg); -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;
+#decorative1{position: relative; background-color: rgb(240, 240, 240); background-image: url(/images/bible2.jpg); -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;
 -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
 -moz-box-shadow:    0px 3px 11px rgba(0, 0, 0, 0.7);
 box-shadow:         0px 3px 11px rgba(0, 0, 0, 0.7);}
 
-#decorative2{background-color: rgb(64, 172, 98); height: 85px;}
+#decorative2{background-color: rgb(36, 52, 146); height: 85px;}
+
+#decorative3{position: relative; background-color: rgb(240, 240, 240); background-image: url(/images/stars.jpg);  background-repeat: no-repeat no-repeat;
+-webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 3px 11px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 3px 11px rgba(0, 0, 0, 0.7);}
+
+#decorative3{position: relative; background-color: rgb(240, 240, 240); background-image: url(/images/stars1.jpg);  background-repeat: no-repeat no-repeat;
+-webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 3px 11px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 3px 11px rgba(0, 0, 0, 0.7);}
 
 #divFooter{font-family: 'Open Sans', sans-serif; background-color: transparent; color: rgb(41, 41, 41); padding-top: 32px; line-height: 22px; font-size: 12px; text-transform: none; background-image: url(chruch.png); background-repeat: repeat repeat;}
 
@@ -326,7 +369,9 @@ a.btn, a.btn-large, a.btn-small, a.btn-mini {color:#333}
 
 #divHeaderText {padding-top: 200px; padding-bottom: 30px; border-color: rgb(51, 51, 51); text-align: left;}
 
-#decorative2{background-image:-moz-linear-gradient(bottom,#369656,#40ac62);background-image:-o-linear-gradient(bottom,#369656,#40ac62);background-image:-webkit-gradient(linear,left top, left bottom,from(#369656),to(#40ac62));background-image:-webkit-linear-gradient(bottom,#369656,#40ac62);background-image:linear-gradient(to bottom,#40ac62,#369656);background-image:linear-gradient(bottom,#369656,#40ac62);}
+#decorative2{
+  background-color: #00134d;
+}
 
 #contentOuterSeparator{margin-top: 0px; border-top-color: rgb(255, 255, 255); border-top-width: 0px; border-top-style: solid; margin-bottom: 25px; height: 0px; background-color: transparent;}
 
@@ -360,11 +405,11 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 
 .navbar .nav-pills > li > a {margin-left: 2px; margin-right: 2px; padding: 35px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(255, 255, 255); border-bottom-style: none;}
 
-.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255); background-color: rgb(64, 172, 98); border-bottom-style: none;}
+.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255); background-color: rgb(0, 38, 153); border-bottom-style: none;}
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle {background:none}
 
-.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(64, 172, 98); border-bottom-style: none;}
+.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(0, 38, 153); border-bottom-style: none;}
 
 .navbar .ddmenu {margin-top:-2px;margin-bottom:0px}
 
@@ -424,17 +469,17 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 }
 
 
-@media (max-width: 767px) {    
+@media (max-width: 767px) {
     #divLogo {margin-top:10px;margin-bottom:10px;}
 
     #divSiteTitle {font-size: 25px;}
 
-    
+
     #divHeaderText {margin:0px;padding:10px 0px;}
-   
+
     #divHeaderLine1 {margin-top: 0px;}
-     
-    
+
+
     #divMenuRight {width:100%;margin-top: 0px;padding-top:0px}
 
     .ddmenu, .navbar .ddmenu {margin-top: 0px; margin-bottom: 0px;}
@@ -443,34 +488,34 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 
     .navbar {width:100%;margin-top: 0px;padding-top:0px}
 
-    
+
     #decorative1, #decorative2, #decorative3 {margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;}
 
-    
+
     /* Fixed Top */
 
     #decorative2 {position:static}
 
     body {padding-top:0px}
 
-    
+
     #divFooter {margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;}
-    
+
     #divBoxed > #divFooter {margin-left:0px;margin-right:0px;padding-left:0px;padding-right:0px;}
 
-    
+
     body > #footerOuterSeparator, body > #contentOuterSeparator {margin-left:-20px;margin-right:-20px;}
 
-    
+
     .headerArea, .topArea {padding:20px !important;}
  /*only for templates without divBoxed*/
 
-    
+
     #camera_wrap {margin-top:20px}
 
     #divVideo {margin-top:20px}
 
-    
+
     .dropdown-menu .sub-menu {left:0%;position:relative;top:0;visibility:visible;margin-top:3px;display:block}
 
     .dropdown-menu, .sub-menu {border-radius:5px !important;}
@@ -478,7 +523,3 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
     .navbar .ddmenu {margin-top: 0px;margin-bottom: 0px;}
 
 }
-
-
-
-
