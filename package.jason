@@ -1,6 +1,8 @@
 {
+   "name": "reSurge",
    "version": "1.0.0",
+   "description": "reSurge Website",
    "dependencies": {
-     "harp": "*",
-     "node": "0.12.x"
-  }
+     "harp": "*"
+   }
+ }
