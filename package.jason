@@ -1,11 +1,10 @@
-
- {
+{
    "version": "1.0.0",
    "dependencies": {
      "harp": "*"
    },
    "engines": {
-     "node": "4.4.x",
+     "node": "0.12.x",
      "npm": "2.11.x"
    }
  }
