@@ -70,6 +70,12 @@ h3, h4, h5, h6 {line-height:1.5 !important}
     font-size:inherit !important;
 }
 
+.lead1 {
+    text-align:left;
+}
+
+
+
 
 /* Contact */
 
@@ -381,9 +387,9 @@ h3,.page-content h3 a {font-weight: normal; font-style: normal; font-family: 'So
 
 h4,.page-content h4 a {font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; font-size: 21px; line-height: 45px;}
 
-h5,.page-content h5 a {font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; font-size: 17px; line-height: 45px;}
+h5,.page-content h5 a {font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; line-height: 45px;}
 
-h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; line-height: 45px;}
+h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'Source Sans Pro', sans-serif; font-size: 21px; line-height: 1.5;}
 
 .line-separator{border-top-width: 1px; border-top-style: solid; margin-top: 21px; margin-bottom: 21px; border-top-color: rgb(234, 234, 234); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; }
 
